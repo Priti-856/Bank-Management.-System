@@ -109,7 +109,7 @@ void inputNewData(Accounts &data){
     cin >> data.accountNumber;
     cout << "Enter Name: ";
     cin >> data.name;
-    cout << "Enter Phone: ";
+    cout << "Enter Contact Number: ";
     cin >> data.phone;
     cout << "Enter Address: ";
     cin >> data.address;
@@ -221,7 +221,7 @@ void MainMenu(){
     int choice;
 
     do{
-        cout << "\n========== BANK MANAGEMENT SYSTEM ==========\n";
+        cout << "\n==========WELCOME TO OUR BANK MANAGEMENT SYSTEM ==========\n";
         cout << "1. Create Account\n";
         cout << "2. Login Account\n";
         cout << "3. Update Account\n";
